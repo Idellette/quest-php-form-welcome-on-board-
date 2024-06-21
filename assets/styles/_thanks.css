@@ -1,0 +1,18 @@
+h1 {
+    font-family: "Montserrat";
+    color: var(--primary-color);
+    text-align: center;
+}
+
+p {
+    
+    text-align: center;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primary-color);
+    color: #fff;
+    text-align: center;
+    min-height: 1vh;
+}

@@ -1,0 +1,44 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    margin: auto 25%;
+}
+
+input {
+    margin-bottom: 10px;
+    height: 5vh;
+}
+.background-secondary-color{
+    background-color: lightgrey;
+}
+
+.message {
+    height: 40vh;
+    margin-bottom: 15vh;
+}
+
+label {
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h1 {
+    font-family: "Montserrat";
+    color: var(--primary-color);
+    text-align: center;
+}
+h2 {
+    font-family: "Verdana";
+    color: var(--primary-color);
+    text-align: center;
+    font-size:smaller;
+}
+.submit{
+    color: white;
+    background-color: var(--primary-color);
+    font-size: 1rem;
+    margin-bottom: 5vh;
+    width: 15vh;
+}

@@ -55,7 +55,35 @@
                 quaerat nemo nam, consequuntur nisi alias in praesentium. Fuga amet esse nam doloremque ut nemo nostrum.
             </p>
         </section>
+        <section class="container">
+        <h2 id="get in touch">Get in touch</h2>
+            <p>
+        Unde Rufinus ea tempestate praefectus praetorio ad discrimen trusus est ultimum.
+            </p>
+        
+            <form class="contact" action="_contact.php" method="post">
+                    <label for="name">Name*</label>
+                    <input class="background-secondary-color" type="text" name="name" id="name" pattern="([a-zA-Z0-9_\s]+)" required>
+
+                    <label for="name">email*</label>
+                    <input class="background-secondary-color" type="email" name="email" id="email" required>
+                    
+                    <label for="name">Subject*</label>
+                    <select name="section">
+                       <option>Demande</option><option selected>Observation</option><option>Collaboration</option>
+                    </select>
+                    
+                    <label for="message">Message</label>
+                    <textarea class="message background-secondary-color " type="text" name="message" id="message" ></textarea>
+
+                    <input class="submit" type="submit" value="save">
+
+            </form>    
+
         <?php //@todo Add a contact form  ?>
+
+
+        </section>
     </main>
     <?php include '_footer.php' ?>
 </body>
